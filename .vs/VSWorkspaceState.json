@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CompanyApp",
+    "\\CompanyApp\\Interfaces",
+    "\\CompanyApp\\Models",
+    "\\CompanyApp\\Services"
+  ],
+  "SelectedNode": "\\CompanyApp\\Interfaces\\ICompanyManager.cs",
+  "PreviewInSolutionExplorer": false
+}
