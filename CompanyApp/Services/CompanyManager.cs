@@ -71,4 +71,35 @@ namespace CompanyApp.Services
             Console.WriteLine($"{name} {surname} uğurla {targetDept.Name} şöbəsinə əlavə olundu.");
         }
     }
-}
+    public void DisplayEmployeesByDepartment(string departmentName)
+        {
+            Department targetDept = null;
+
+            foreach (var dept in _departments)
+            {
+                if (dept.Name.ToLower() == departmentName.ToLower())
+                {
+                    targetDept = dept;
+                    break;
+                }
+            }
+
+            if (targetDept == null)
+            {
+                Console.WriteLine($"Xəta: '{departmentName}' adlı şöbə tapılmadı!");
+                return;
+            }
+
+            if (targetDept.Employees.Count == 0)
+            {
+                Console.WriteLine($"'{targetDept.Name}' şöbəsində hələ ki heç bir işçi çalışmır.");
+                return;
+            }
+
+            Console.WriteLine($"\n--- {targetDept.Name} Şöbəsinin İşçiləri ---");
+            foreach (var emp in targetDept.Employees)
+            {
+                Console.WriteLine($"İşçi: {emp.Name} {emp.Surname} | Maaş: {emp.Salary} AZN");
+            }
+        }
+    }

@@ -34,21 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CompanyManager.cs",
-              "DocumentMoniker": "C:\\Users\\Huseyn\\Desktop\\CompanyApp\\CompanyApp\\Services\\CompanyManager.cs",
-              "RelativeDocumentMoniker": "CompanyApp\\Services\\CompanyManager.cs",
-              "ToolTip": "C:\\Users\\Huseyn\\Desktop\\CompanyApp\\CompanyApp\\Services\\CompanyManager.cs",
-              "RelativeToolTip": "CompanyApp\\Services\\CompanyManager.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAgwDwAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T12:35:14.726Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -57,9 +44,22 @@
               "RelativeDocumentMoniker": "CompanyApp\\Interfaces\\ICompanyManager.cs",
               "ToolTip": "C:\\Users\\Huseyn\\Desktop\\CompanyApp\\CompanyApp\\Interfaces\\ICompanyManager.cs",
               "RelativeToolTip": "CompanyApp\\Interfaces\\ICompanyManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-09T12:34:13.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CompanyManager.cs",
+              "DocumentMoniker": "C:\\Users\\Huseyn\\Desktop\\CompanyApp\\CompanyApp\\Services\\CompanyManager.cs",
+              "RelativeDocumentMoniker": "CompanyApp\\Services\\CompanyManager.cs",
+              "ToolTip": "C:\\Users\\Huseyn\\Desktop\\CompanyApp\\CompanyApp\\Services\\CompanyManager.cs",
+              "RelativeToolTip": "CompanyApp\\Services\\CompanyManager.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAQwGgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-09T12:35:14.726Z",
               "EditorCaption": ""
             },
             {
@@ -72,8 +72,7 @@
               "RelativeToolTip": "CompanyApp\\Models\\Department.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T12:32:48.256Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-09T12:32:48.256Z"
             },
             {
               "$type": "Document",
@@ -85,8 +84,7 @@
               "RelativeToolTip": "CompanyApp\\CompanyApp.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-09T12:49:38.374Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-09T12:49:38.374Z"
             },
             {
               "$type": "Document",

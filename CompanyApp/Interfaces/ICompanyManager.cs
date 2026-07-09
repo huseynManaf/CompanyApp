@@ -10,3 +10,4 @@ namespace CompanyApp.Interfaces
         void AddEmployee(string name, string surname, double salary, string departmentName);
     }
 }
+void DisplayEmployeesByDepartment(string departmentName);
