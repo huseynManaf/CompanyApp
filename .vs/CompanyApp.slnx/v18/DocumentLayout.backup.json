@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "CompanyApp\\Interfaces\\ICompanyManager.cs",
               "ToolTip": "C:\\Users\\Huseyn\\Desktop\\CompanyApp\\CompanyApp\\Interfaces\\ICompanyManager.cs",
               "RelativeToolTip": "CompanyApp\\Interfaces\\ICompanyManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-09T12:34:13.401Z",
               "EditorCaption": ""
@@ -57,7 +57,7 @@
               "RelativeDocumentMoniker": "CompanyApp\\Services\\CompanyManager.cs",
               "ToolTip": "C:\\Users\\Huseyn\\Desktop\\CompanyApp\\CompanyApp\\Services\\CompanyManager.cs",
               "RelativeToolTip": "CompanyApp\\Services\\CompanyManager.cs",
-              "ViewState": "AgIAAJsAAAAAAAAAAAAQwKQAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAMIAAAAAAAAAAAAUwN4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-09T12:35:14.726Z",
               "EditorCaption": ""
@@ -108,8 +108,7 @@
               "RelativeToolTip": "CompanyApp\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T12:21:15.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-09T12:21:15.247Z"
             }
           ]
         }

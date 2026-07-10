@@ -234,3 +234,23 @@ public void UpdateDepartment(string oldName, string newName, int newWorkerLimit,
 
     Console.WriteLine($"'{oldName}' şöbəsinin məlumatları uğurla yeniləndi.");
 }
+public void DisplayAllEmployees()
+{
+    Console.WriteLine("\n--- Sistemdəki Bütün İşçilər ---");
+    bool hasEmployees = false;
+
+    // İç-içə dövr quraraq bütün şöbələrin işçilərini gəzirik
+    foreach (var dept in _departments)
+    {
+        foreach (var emp in dept.Employees)
+        {
+            Console.WriteLine($"İşçi: {emp.Name} {emp.Surname} | Maaş: {emp.Salary} AZN | Şöbə: {emp.DepartmentName}");
+            hasEmployees = true;
+        }
+    }
+
+    if (!hasEmployees)
+    {
+        Console.WriteLine("Sistemdə hələ ki heç bir işçi yoxdur.");
+    }
+}
