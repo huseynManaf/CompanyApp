@@ -193,3 +193,44 @@ public void DeleteEmployee(string name, string surname)
         Console.WriteLine($"Xəta: {name} {surname} adlı işçi tapılmadı!");
     }
 }
+public void UpdateDepartment(string oldName, string newName, int newWorkerLimit, double newSalaryLimit)
+{
+    Department targetDept = null;
+
+    // 1. Redaktə olunacaq şöbəni foreach dövrü ilə axtarırıq
+    foreach (var dept in _departments)
+    {
+        if (dept.Name.ToLower() == oldName.ToLower())
+        {
+            targetDept = dept;
+            break;
+        }
+    }
+
+    // Şöbə tapılmadısa proqramı dayandırırıq
+    if (targetDept == null)
+    {
+        Console.WriteLine($"Xəta: '{oldName}' adlı şöbə tapılmadı!");
+        return;
+    }
+
+    // 2. İf şərti ilə yoxlayırıq: yeni limit daxildəki işçi sayından az ola bilməz
+    if (newWorkerLimit < targetDept.Employees.Count)
+    {
+        Console.WriteLine($"Xəta: Yeni limit ({newWorkerLimit}), mövcud işçi sayından ({targetDept.Employees.Count}) az ola bilməz!");
+        return;
+    }
+
+    // 3. Obyektin dəyişənlərini yeniləyirik
+    targetDept.Name = newName;
+    targetDept.WorkerLimit = newWorkerLimit;
+    targetDept.SalaryLimit = newSalaryLimit;
+
+    // 4. Şöbənin daxilindəki işçilərin də şöbə adını dövrlə yeniləyirik
+    foreach (var emp in targetDept.Employees)
+    {
+        emp.DepartmentName = newName;
+    }
+
+    Console.WriteLine($"'{oldName}' şöbəsinin məlumatları uğurla yeniləndi.");
+}
