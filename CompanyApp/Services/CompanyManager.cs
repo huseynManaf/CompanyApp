@@ -103,3 +103,62 @@ namespace CompanyApp.Services
             }
         }
     }
+    public void UpdateEmployee(string name, string surname, double newSalary, string newDepartment)
+{
+    Employee targetEmp = null;
+
+    // Bütün şöbələri gəzib həmin işçini tapırıq
+    foreach (var dept in _departments)
+    {
+        foreach (var emp in dept.Employees)
+        {
+            if (emp.Name.ToLower() == name.ToLower() && emp.Surname.ToLower() == surname.ToLower())
+            {
+                targetEmp = emp;
+                break;
+            }
+        }
+    }
+
+    if (targetEmp == null)
+    {
+        Console.WriteLine($"Xəta: {name} {surname} adlı işçi tapılmadı!");
+        return;
+    }
+
+    // Maaşı yeniləyirik
+    targetEmp.Salary = newSalary;
+
+    // Əgər şöbəsi dəyişirsə, onu köhnə şöbədən silib yenisinə keçiririk
+    if (targetEmp.DepartmentName.ToLower() != newDepartment.ToLower())
+    {
+        Department newDept = null;
+        foreach (var dept in _departments)
+        {
+            if (dept.Name.ToLower() == newDepartment.ToLower())
+            {
+                newDept = dept;
+                break;
+            }
+        }
+
+        if (newDept != null)
+        {
+            // Köhnə şöbədən sil
+            foreach (var dept in _departments)
+            {
+                if (dept.Name.ToLower() == targetEmp.DepartmentName.ToLower())
+                {
+                    dept.Employees.Remove(targetEmp);
+                    break;
+                }
+            }
+
+            // Yeni şöbəyə əlavə et
+            targetEmp.DepartmentName = newDept.Name;
+            newDept.Employees.Add(targetEmp);
+        }
+    }
+
+    Console.WriteLine($"{name} {surname} adlı işçinin məlumatları uğurla yeniləndi.");
+}
