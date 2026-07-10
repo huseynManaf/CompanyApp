@@ -6,6 +6,6 @@
     "\\CompanyApp\\Models",
     "\\CompanyApp\\Services"
   ],
-  "SelectedNode": "\\CompanyApp\\CompanyApp.csproj",
+  "SelectedNode": "\\CompanyApp\\Services\\CompanyManager.cs",
   "PreviewInSolutionExplorer": false
 }

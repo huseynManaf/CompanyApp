@@ -162,3 +162,34 @@ namespace CompanyApp.Services
 
     Console.WriteLine($"{name} {surname} adlı işçinin məlumatları uğurla yeniləndi.");
 }
+public void DeleteEmployee(string name, string surname)
+{
+    bool isDeleted = false;
+
+    // Şöbələri gəzib həmin işçini tapırıq və siyahıdan silirik
+    foreach (var dept in _departments)
+    {
+        Employee empToDelete = null;
+        foreach (var emp in dept.Employees)
+        {
+            if (emp.Name.ToLower() == name.ToLower() && emp.Surname.ToLower() == surname.ToLower())
+            {
+                empToDelete = emp;
+                break;
+            }
+        }
+
+        if (empToDelete != null)
+        {
+            dept.Employees.Remove(empToDelete);
+            isDeleted = true;
+            Console.WriteLine($"{name} {surname} sistemdən və {dept.Name} şöbəsindən uğurla silindi.");
+            break;
+        }
+    }
+
+    if (!isDeleted)
+    {
+        Console.WriteLine($"Xəta: {name} {surname} adlı işçi tapılmadı!");
+    }
+}

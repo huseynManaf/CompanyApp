@@ -12,3 +12,4 @@ namespace CompanyApp.Interfaces
 }
 void DisplayEmployeesByDepartment(string departmentName);
 void UpdateEmployee(string name, string surname, double newSalary, string newDepartment); void UpdateEmployee(string name, string surname, double newSalary, string newDepartment);
+void DeleteEmployee(string name, string surname);
