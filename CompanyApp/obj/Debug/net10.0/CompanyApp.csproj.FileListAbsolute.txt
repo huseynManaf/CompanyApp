@@ -1,0 +1,5 @@
+C:\Users\Huseyn\Desktop\CompanyApp\CompanyApp\obj\Debug\net10.0\CompanyApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Huseyn\Desktop\CompanyApp\CompanyApp\obj\Debug\net10.0\CompanyApp.AssemblyInfoInputs.cache
+C:\Users\Huseyn\Desktop\CompanyApp\CompanyApp\obj\Debug\net10.0\CompanyApp.AssemblyInfo.cs
+C:\Users\Huseyn\Desktop\CompanyApp\CompanyApp\obj\Debug\net10.0\CompanyApp.csproj.CoreCompileInputs.cache
+C:\Users\Huseyn\Desktop\CompanyApp\CompanyApp\obj\Debug\net10.0\CompanyApp.sourcelink.json
