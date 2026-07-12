@@ -254,3 +254,25 @@ public void DisplayAllEmployees()
         Console.WriteLine("Sistemdə hələ ki heç bir işçi yoxdur.");
     }
 }
+public void DeleteDepartment(string name)
+{
+    Department deptToDelete = null;
+
+    foreach (var dept in _departments)
+    {
+        if (dept.Name.ToLower() == name.ToLower())
+        {
+            deptToDelete = dept;
+            break;
+        }
+    }
+
+    if (deptToDelete == null)
+    {
+        Console.WriteLine($"Xəta: '{name}' adlı şöbə tapılmadı!");
+        return;
+    }
+
+    _departments.Remove(deptToDelete);
+    Console.WriteLine($"'{name}' şöbəsi və daxilindəki bütün işçilər sistemdən uğurla silindi.");
+}

@@ -15,3 +15,4 @@ void UpdateEmployee(string name, string surname, double newSalary, string newDep
 void DeleteEmployee(string name, string surname);
 void UpdateDepartment(string oldName, string newName, int newWorkerLimit, double newSalaryLimit);
 void DisplayAllEmployees();
+void DeleteDepartment(string name);
