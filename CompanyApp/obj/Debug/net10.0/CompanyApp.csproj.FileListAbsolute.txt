@@ -3,3 +3,13 @@ C:\Users\Huseyn\Desktop\CompanyApp\CompanyApp\obj\Debug\net10.0\CompanyApp.Assem
 C:\Users\Huseyn\Desktop\CompanyApp\CompanyApp\obj\Debug\net10.0\CompanyApp.AssemblyInfo.cs
 C:\Users\Huseyn\Desktop\CompanyApp\CompanyApp\obj\Debug\net10.0\CompanyApp.csproj.CoreCompileInputs.cache
 C:\Users\Huseyn\Desktop\CompanyApp\CompanyApp\obj\Debug\net10.0\CompanyApp.sourcelink.json
+C:\Users\Huseyn\Desktop\CompanyApp\CompanyApp\bin\Debug\net10.0\CompanyApp.exe
+C:\Users\Huseyn\Desktop\CompanyApp\CompanyApp\bin\Debug\net10.0\CompanyApp.deps.json
+C:\Users\Huseyn\Desktop\CompanyApp\CompanyApp\bin\Debug\net10.0\CompanyApp.runtimeconfig.json
+C:\Users\Huseyn\Desktop\CompanyApp\CompanyApp\bin\Debug\net10.0\CompanyApp.dll
+C:\Users\Huseyn\Desktop\CompanyApp\CompanyApp\bin\Debug\net10.0\CompanyApp.pdb
+C:\Users\Huseyn\Desktop\CompanyApp\CompanyApp\obj\Debug\net10.0\CompanyApp.dll
+C:\Users\Huseyn\Desktop\CompanyApp\CompanyApp\obj\Debug\net10.0\refint\CompanyApp.dll
+C:\Users\Huseyn\Desktop\CompanyApp\CompanyApp\obj\Debug\net10.0\CompanyApp.pdb
+C:\Users\Huseyn\Desktop\CompanyApp\CompanyApp\obj\Debug\net10.0\CompanyApp.genruntimeconfig.cache
+C:\Users\Huseyn\Desktop\CompanyApp\CompanyApp\obj\Debug\net10.0\ref\CompanyApp.dll

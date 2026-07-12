@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 using CompanyApp.Services;
 
 namespace CompanyApp
@@ -7,13 +8,15 @@ namespace CompanyApp
     {
         static void Main(string[] args)
         {
-            // Şirkət menecerimizi işə salırıq
+            // Konsolda Azərbaycan hərflərinin düzgün görünməsi üçün:
+            Console.OutputEncoding = Encoding.UTF8;
+            Console.InputEncoding = Encoding.UTF8;
+
             CompanyManager manager = new CompanyManager();
             bool isRunning = true;
 
             Console.WriteLine("=== Şirkət İdarəetmə Sisteminə Xoş Gəlmisiniz ===");
 
-            // İstifadəçi çıxış edənə qədər proqramı sonsuz dövrdə saxlayırıq
             while (isRunning)
             {
                 Console.WriteLine("\n--- MENYU ---");
@@ -22,10 +25,11 @@ namespace CompanyApp
                 Console.WriteLine("3. Şöbəyə İşçi Əlavə Et");
                 Console.WriteLine("4. Şöbədəki İşçiləri Göstər");
                 Console.WriteLine("5. Bütün İşçilərin Siyahısını Göstər");
-                Console.WriteLine("6. İşçinin Məlumatlarını Yenilə (Update)");
-                Console.WriteLine("7. İşçini Sistemdən Sil (Delete)");
+                Console.WriteLine("6. İşçinin Məlumatlarını Yenilə");
+                Console.WriteLine("7. İşçini Sistemdən Sil");
                 Console.WriteLine("8. Şöbəni Sistemdən Sil");
                 Console.WriteLine("9. Şöbə Məlumatlarını Yenilə");
+                Console.WriteLine("10. Şirkətin Ümumi Statistikasını Göstər");
                 Console.WriteLine("0. Proqramdan Çıx");
                 Console.Write("\nSeçiminiz edin: ");
 
@@ -40,7 +44,6 @@ namespace CompanyApp
                         int workerLimit = int.Parse(Console.ReadLine());
                         Console.Write("Maaş limiti: ");
                         double salaryLimit = double.Parse(Console.ReadLine());
-
                         manager.AddDepartment(deptName, workerLimit, salaryLimit);
                         break;
 
@@ -57,7 +60,6 @@ namespace CompanyApp
                         double salary = double.Parse(Console.ReadLine());
                         Console.Write("Əlavə ediləcək şöbənin adı: ");
                         string targetDept = Console.ReadLine();
-
                         manager.AddEmployee(empName, empSurname, salary, targetDept);
                         break;
 
@@ -80,7 +82,6 @@ namespace CompanyApp
                         double newSalary = double.Parse(Console.ReadLine());
                         Console.Write("Yeni şöbəsinin adı: ");
                         string newDept = Console.ReadLine();
-
                         manager.UpdateEmployee(uName, uSurname, newSalary, newDept);
                         break;
 
@@ -89,7 +90,6 @@ namespace CompanyApp
                         string delName = Console.ReadLine();
                         Console.Write("Soyadı: ");
                         string delSurname = Console.ReadLine();
-
                         manager.DeleteEmployee(delName, delSurname);
                         break;
 
@@ -108,8 +108,11 @@ namespace CompanyApp
                         int newWLimit = int.Parse(Console.ReadLine());
                         Console.Write("Yeni maaş limiti: ");
                         double newSLimit = double.Parse(Console.ReadLine());
-
                         manager.UpdateDepartment(oldDName, newDName, newWLimit, newSLimit);
+                        break;
+
+                    case "10":
+                        manager.ShowCompanyStatistics();
                         break;
 
                     case "0":

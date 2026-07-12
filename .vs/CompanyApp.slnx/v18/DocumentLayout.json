@@ -15,14 +15,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CompanyApp\\Interfaces\\ICompanyManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Huseyn\\Desktop\\CompanyApp\\CompanyApp\\Models\\Employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CompanyApp\\Models\\Employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Huseyn\\Desktop\\CompanyApp\\CompanyApp\\Models\\Department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CompanyApp\\Models\\Department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Huseyn\\Desktop\\CompanyApp\\CompanyApp\\CompanyApp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CompanyApp\\CompanyApp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
@@ -34,20 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ICompanyManager.cs",
-              "DocumentMoniker": "C:\\Users\\Huseyn\\Desktop\\CompanyApp\\CompanyApp\\Interfaces\\ICompanyManager.cs",
-              "RelativeDocumentMoniker": "CompanyApp\\Interfaces\\ICompanyManager.cs",
-              "ToolTip": "C:\\Users\\Huseyn\\Desktop\\CompanyApp\\CompanyApp\\Interfaces\\ICompanyManager.cs",
-              "RelativeToolTip": "CompanyApp\\Interfaces\\ICompanyManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T12:34:13.401Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -56,46 +36,33 @@
               "RelativeDocumentMoniker": "CompanyApp\\Services\\CompanyManager.cs",
               "ToolTip": "C:\\Users\\Huseyn\\Desktop\\CompanyApp\\CompanyApp\\Services\\CompanyManager.cs",
               "RelativeToolTip": "CompanyApp\\Services\\CompanyManager.cs",
-              "ViewState": "AgIAAPQAAAAAAAAAAAAQwAMBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAPIAAAAAAAAAAAAQwBsBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T12:35:14.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-12T04:16:14.333Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Department.cs",
-              "DocumentMoniker": "C:\\Users\\Huseyn\\Desktop\\CompanyApp\\CompanyApp\\Models\\Department.cs",
-              "RelativeDocumentMoniker": "CompanyApp\\Models\\Department.cs",
-              "ToolTip": "C:\\Users\\Huseyn\\Desktop\\CompanyApp\\CompanyApp\\Models\\Department.cs",
-              "RelativeToolTip": "CompanyApp\\Models\\Department.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ICompanyManager.cs",
+              "DocumentMoniker": "C:\\Users\\Huseyn\\Desktop\\CompanyApp\\CompanyApp\\Interfaces\\ICompanyManager.cs",
+              "RelativeDocumentMoniker": "CompanyApp\\Interfaces\\ICompanyManager.cs",
+              "ToolTip": "C:\\Users\\Huseyn\\Desktop\\CompanyApp\\CompanyApp\\Interfaces\\ICompanyManager.cs",
+              "RelativeToolTip": "CompanyApp\\Interfaces\\ICompanyManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T12:32:48.256Z"
+              "WhenOpened": "2026-07-12T04:15:58.828Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "CompanyApp.csproj",
               "DocumentMoniker": "C:\\Users\\Huseyn\\Desktop\\CompanyApp\\CompanyApp\\CompanyApp.csproj",
               "RelativeDocumentMoniker": "CompanyApp\\CompanyApp.csproj",
               "ToolTip": "C:\\Users\\Huseyn\\Desktop\\CompanyApp\\CompanyApp\\CompanyApp.csproj",
               "RelativeToolTip": "CompanyApp\\CompanyApp.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-07-09T12:49:38.374Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\Huseyn\\Desktop\\CompanyApp\\CompanyApp\\Models\\Employee.cs",
-              "RelativeDocumentMoniker": "CompanyApp\\Models\\Employee.cs",
-              "ToolTip": "C:\\Users\\Huseyn\\Desktop\\CompanyApp\\CompanyApp\\Models\\Employee.cs",
-              "RelativeToolTip": "CompanyApp\\Models\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T12:31:35.807Z"
+              "WhenOpened": "2026-07-12T04:15:27.919Z"
             },
             {
               "$type": "Document",
@@ -105,9 +72,9 @@
               "RelativeDocumentMoniker": "CompanyApp\\Program.cs",
               "ToolTip": "C:\\Users\\Huseyn\\Desktop\\CompanyApp\\CompanyApp\\Program.cs",
               "RelativeToolTip": "CompanyApp\\Program.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAQwGEAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAIEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T12:21:15.247Z",
+              "WhenOpened": "2026-07-12T04:12:39.097Z",
               "EditorCaption": ""
             }
           ]
